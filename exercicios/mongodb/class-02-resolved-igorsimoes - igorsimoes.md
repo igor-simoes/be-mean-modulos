@@ -47,14 +47,6 @@ autor: Igor Simões de Oliveira Lima
     ```
 	ubuntu-igor(mongod-3.0.7) be-mean-pokemons> db.pokemons.find()
 	{
-	  "_id": ObjectId("5645e688641033cc67bd75e5"),
-	  "name": "",
-	  "description": "",
-	  "attack": 0,
-	  "defense": 0,
-	  "height": 0
-	}
-	{
 	  "_id": ObjectId("5645eb0af5c1f5d1e52aec29"),
 	  "name": "Mewtwo",
 	  "description": "zica psiquico",
