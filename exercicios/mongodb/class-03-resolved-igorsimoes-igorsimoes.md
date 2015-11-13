@@ -4,7 +4,7 @@ autor: Igor Simões de Oliveira Lima
 
 ## Observações
    ```
-   1. O campo altura(height) dos meus objetos são inteiros, por isso não retornou nada
+   1. O campo altura(height) dos meus objetos são inteiros
    2. Meus objetos não tem campo tipo(type)
    3. Mesmo não retornando nada, não deixa de estar certo :)
 
