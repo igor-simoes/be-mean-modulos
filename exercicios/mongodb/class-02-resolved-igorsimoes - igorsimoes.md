@@ -2,6 +2,12 @@
 
 autor: Igor Simões de Oliveira Lima
 
+### 1 Criar database be-mean-pokemons
+    ```
+	ubuntu-igor(mongod-3.0.7) test> use be-mean-pokemons
+	switched to db be-mean-pokemons
+    ```
+
 ### 2 Listar as databases
     ```
 	ubuntu-igor(mongod-3.0.7) test> show dbs
@@ -12,9 +18,6 @@ autor: Igor Simões de Oliveira Lima
     ```
 ### 3 Listar collections
     ```
-	ubuntu-igor(mongod-3.0.7) test> use be-mean-pokemons
-	switched to db be-mean-pokemons
-
 	ubuntu-igor(mongod-3.0.7) be-mean-pokemons> show collections
 	pokemons       → 0.000MB / 0.008MB
 	system.indexes → 0.000MB / 0.008MB
