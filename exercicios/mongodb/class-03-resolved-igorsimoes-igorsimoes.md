@@ -65,7 +65,7 @@ autor: Igor Simões de Oliveira Lima
 
 ### 3 Listar pokemons com altura(height) MENOR OU IGUAL a 0.5 E tipo "Grama"
     ```
-    ubuntu-igor(mongod-3.0.7) be-mean-pokemons> var query = {$and:[{height:{$lte:0.5}}, {tipo:"grama"}]}
+    ubuntu-igor(mongod-3.0.7) be-mean-pokemons> var query = {$and:[{height:{$lte:0.5}}, {type:"grama"}]}
     ubuntu-igor(mongod-3.0.7) be-mean-pokemons> db.pokemons.find(query)
     Fetched 0 record(s) in 1ms
     ```
